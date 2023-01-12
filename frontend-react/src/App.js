@@ -1,10 +1,18 @@
-// import logo from './logo.svg';
-import './App.css';
+import { Header, About, Footer, Skills, Work, Testimonial } from './container';
+import { Navbar } from './components/Navbar/Navbar';
+
+import './App.scss';
 
 function App() {
   return (
-    <div className='App'>
-      <h1>Hello!</h1>
+    <div className='app'>
+      <Navbar />
+      <Header />
+      <About />
+      <Work />
+      <Skills />
+      <Testimonial />
+      <Footer />
     </div>
   );
 }
