@@ -1,5 +1,6 @@
-import { Header, About, Footer, Skills, Work, Testimonial } from './container';
-import { Navbar } from './components/Navbar/Navbar';
+import { About, Footer, Skills, Work, Testimonial } from './container';
+import Header from './container/Header/Header';
+import Navbar from './components/Navbar/Navbar';
 
 import './App.scss';
 

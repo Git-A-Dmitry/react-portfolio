@@ -11,7 +11,8 @@ const Navbar = () => {
   return (
     <nav className='app__navbar'>
       <div className='app__navbar-logo'>
-        <img src={images.logo} alt='logo' />
+        <h1>Resume</h1>
+        {/* <img src={images.logo} alt='logo' /> */}
       </div>
 
       <ul className='app__navbar-links'>
@@ -48,4 +49,4 @@ const Navbar = () => {
   );
 };
 
-export { Navbar };
+export default Navbar;
