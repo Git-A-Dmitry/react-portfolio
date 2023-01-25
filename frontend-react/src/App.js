@@ -1,4 +1,4 @@
-import { Header, About, Footer, Work, Skills, Testimonial } from './container';
+import { Header, About, Work, Skills, Contacts } from './container';
 import Navbar from './components/Navbar/Navbar';
 
 import './App.scss';
@@ -11,8 +11,9 @@ function App() {
       <About />
       <Work />
       <Skills />
-      <Testimonial />
-      <Footer />
+      {/* <Testimonial /> */}
+      <Contacts />
+      {/* <Footer /> */}
     </div>
   );
 }

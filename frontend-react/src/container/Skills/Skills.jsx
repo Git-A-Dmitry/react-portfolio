@@ -5,7 +5,7 @@ import { urlFor, client } from '../../client';
 import './Skills.scss';
 
 import { Tooltip } from 'react-tooltip';
-import 'react-tooltip/dist/react-tooltip.css';
+// import 'react-tooltip/dist/react-tooltip.css';
 
 const Skills = () => {
   const [experience, setExperience] = useState([]);

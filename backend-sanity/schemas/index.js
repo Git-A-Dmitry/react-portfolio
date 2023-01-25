@@ -1,6 +1,6 @@
 // schema types from any plugins that might expose them
 
-import testimonials from './testimonials'
+// import testimonials from './testimonials'
 import abouts from './abouts'
 import brands from './brands'
 import contact from './contact'
@@ -13,7 +13,7 @@ export const schemaTypes = [
   abouts,
   brands,
   contact,
-  testimonials,
+  // testimonials,
   skills,
   experiences,
   works,

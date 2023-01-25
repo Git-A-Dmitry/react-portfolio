@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 // import { images } from '../../constants';
-import { images } from '../../constants/index';
+// import { images } from '../../constants/index';
 import './Navbar.scss';
 import { HiMenuAlt4, HiX } from 'react-icons/hi';
 import { motion } from 'framer-motion';
@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className='app__navbar'>
       <div className='app__navbar-logo'>
-        <h1>Resume</h1>
+        <h1>Portfolio</h1>
         {/* <img src={images.logo} alt='logo' /> */}
       </div>
 
